@@ -60,7 +60,7 @@ We have finished the construction of gym environment of truck-trailer, the relat
 </div>
 
 #### Agenda:
-
+start to work on the paper
 Our project will be conducted in 7 phases:\
 step 1: construct Bus model\
 step 2: finish the goal reaching task\
