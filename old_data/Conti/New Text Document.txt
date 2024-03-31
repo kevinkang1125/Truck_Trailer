@@ -1,0 +1,39 @@
+SAE MOBILUS 
+
+Potential Game-Based Decision-Making for Autonomous Driving | IEEE Journals & Magazine | IEEE Xplore 
+
+Optimization-based motion primitive automata for autonomous driving (degruyter.com) 
+
+Trajectory-based traffic observation of cooperation at a road narrowing (degruyter.com) 
+
+Evaluation of the communication means of lateral driving dynamics at motorway slip roads (degruyter.com) 
+
+Identify, Estimate and Bound the Uncertainty of Reinforcement Learning for Autonomous Driving | IEEE Journals & Magazine | IEEE Xplore 
+
+Data Fusion in Infrastructure-Augmented Autonomous Driving System: Why? Where? and How? | IEEE Journals & Magazine | IEEE Xplore 
+
+Incorporating Driving Knowledge in Deep Learning Based Vehicle Trajectory Prediction: A Survey | IEEE Journals & Magazine | IEEE Xplore 
+
+Cooperative interacting automobiles (degruyter.com) 
+
+Scenario Understanding and Motion Prediction for Autonomous Vehicles—Review and Comparison | IEEE Journals & Magazine | IEEE Xplore 
+
+The perception systems used in fully automated vehicles: a comparative analysis | SpringerLink 
+
+A research on deep learning methods for 3D point cloud semantic segmentation (spiedigitallibrary.org) 
+
+Event-Triggered Model Predictive Control for Autonomous Vehicle Path Tracking: Validation Using CARLA Simulator | IEEE Journals & Magazine | IEEE Xplore11 
+
+Efficient Safety-Enhanced Velocity Planning for Autonomous Driving With Chance Constraints | IEEE Journals & Magazine | IEEE Xplore 
+
+Identifikation auslösender Umstände von SOTIF-Gefährdungen durch systemtheoretische Prozessanalyse (degruyter.com) 
+
+Batch human-like trajectory generation for multi-motion-state NPC-vehicles in autonomous driving virtual simulation testing - ScienceDirect 
+
+A Fast Kernel-Based Optimal Control Framework for Autonomous Driving | IEEE Journals & Magazine | IEEE Xplore 
+
+Turning Maneuver Prediction of Connected Vehicles at Signalized Intersections: A Dictionary Learning-Based Approach | IEEE Journals & Magazine | IEEE Xplore 
+
+Investigation of car-following models in disordered traffic using trajectory data obtained from unmanned aerial vehicles: Transportation Letters: Vol 0, No 0 (tandfonline.com) 
+
+Competition Threaten Risk Degree Assessment Strategy in Lane-changing Driving Scenarios based on Non-cooperative Game Theory for Autonomous Systems | IEEE Conference Publication | IEEE Xplore 
