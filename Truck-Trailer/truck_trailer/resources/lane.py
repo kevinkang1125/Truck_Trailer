@@ -42,9 +42,9 @@ class Lane:
             pointsId[i]=Goal(self.client,goal)
             interval = math.sqrt((x_i[i-1]-x_i[i])**2+(y_i[i-1]-y_i[i])**2)
             dist += interval
-        #print(goallist)  
-        return goallist,pointsId,planeId,dist
-    
+        #print(goallist)
+          
+        return goallist,pointsId,planeId,dist    
     
         def evaluate_lane(self):
             control_1 = np.random.randint([100,-200],[200,-50])

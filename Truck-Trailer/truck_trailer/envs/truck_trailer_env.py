@@ -113,9 +113,9 @@ class TruckTrailerEnv(gym.Env):
         # Termination condition
         
         if self.reach <=2:
-            done = bool(self.reach >= 98 or self.timesteps>=25000 or max(deviation_tractor,deviation_trailer)>=25)
+            done = bool(self.reach >= 98 or self.timesteps>=50000 or max(deviation_tractor,deviation_trailer)>=25)
         else:              
-            done = bool(max(deviation_tractor,deviation_trailer)>=10 or self.reach >= 98 or self.timesteps>=25000 or self.reach_trailer >= 98)
+            done = bool(max(deviation_tractor,deviation_trailer)>=10 or self.reach >= 98 or self.timesteps>=50000 or self.reach_trailer >= 98)
         # constraint debug
         # if max(deviation_tractor,deviation_trailer)>=10 and self.reach > 2:
         #     print("off track",deviation_tractor,deviation_trailer)
@@ -156,14 +156,14 @@ class TruckTrailerEnv(gym.Env):
         if self.timesteps>=25000:
             reward_timeout = -400
 
-
+        info = {"Tractor_x":tractor_x,"Tractor_y":tractor_y,"trailer_x":trailer_x,"trailer_y":tractor_y,"Goal_list":self.Goallist,"dev_tractor":deviation_tractor,"dev_trailer":deviation_trailer}
         # if self.dist_to_near<self.target_range:# reward for reach target
         #     reward_reach = 100
         reward = reward_timeout+reward_pro+reward_reach+reward_out
         reward = np.float32(reward)
         #print(self.reach,self.reach_trailer)
         # Policy of changing goal point
-        return observation,reward,done,{}
+        return observation,reward,done,info
     
     def reset(self):
         p.resetSimulation(self.client)

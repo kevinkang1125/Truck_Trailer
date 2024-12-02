@@ -36,7 +36,7 @@ p.connect(p.GUI)
 p.setAdditionalSearchPath(pybullet_data.getDataPath())
 p.setGravity(0,0,-10)
 plane = p.loadURDF('./models/simpleplane.urdf',basePosition=[0,0,0])
-#p.resetDebugVisualizerCamera(cameraDistance = 5,cameraYaw = -90,cameraPitch = -40, cameraTargetPosition = [-0.6,-0.1,-0.15])
+p.resetDebugVisualizerCamera(cameraDistance = 5,cameraYaw = -90,cameraPitch = -40, cameraTargetPosition = [-0.6,-0.1,-0.15])
 pointsId = {}
 road_l = {}
 road_r = {}
@@ -51,8 +51,8 @@ for i in range(100):
     # road_l[i],road_r[i]=Road(goal)
 
 #print(pointsId)
-car = p.loadURDF('./Truck-Trailer/truck_trailer/resources/bus.urdf',
-                 basePosition = [-10,0,1.5])
+car = p.loadURDF('./Truck-Trailer/truck_trailer/resources/TT/urdf/TT.urdf',
+                 basePosition = [-10,2,3])
 # car = p.loadURDF('./Truck-Trailer/truck_trailer/resources/bus.urdf',
 #  
 #                basePosition = [10,0,3])
