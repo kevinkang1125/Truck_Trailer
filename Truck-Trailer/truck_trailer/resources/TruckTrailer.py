@@ -22,7 +22,7 @@ class Truck:
      
     def control(self,action):
         throttle,steering_angle = action
-        throttle = 10*(throttle)+10
+        throttle = 12*(throttle)+20
         steering_angle=0.55*steering_angle
         throttle = min(max(throttle, 0), 20)
         steering_angle = max(min(steering_angle,0.5),-0.5)

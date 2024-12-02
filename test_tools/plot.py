@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-reward_TD3 = np.loadtxt('./4.txt')
+reward_TD3 = np.loadtxt('./test_tools/reward_files/6.txt')
 #reward_ppo = np.loadtxt('./reward_of_ppo.txt')
 # aloss = np.loadtxt('./algo/DDPG/data/actor_loss_ddpg.txt')
 # closs = np.loadtxt('./algo/DDPG/data/critic_loss_ddpg.txt')
