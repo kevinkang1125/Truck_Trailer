@@ -1,18 +1,14 @@
 from time import sleep
 import pybullet as p
 import pybullet_data
-from models.goal import Goal
-from models.road import Road
+from truck_trailer.resources.goal import Goal
+from truck_trailer.resources.track import track
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.interpolate as si
 import os
 
-#bus = p.loadURDF('./models/test.urdf',[10,0,3])
-#number_of_joints = p.getNumJoints(bus)
-# angle = p.addUserDebugParameter('Steering', -0.5, 0.5, 0)
-# throttle = p.addUserDebugParameter('Throttle', 0, 20, 0)
-#plane = p.loadURDF('./models/simpleplane.urdf')
+
 #randomly select control points
 control_1 = np.random.randint([20,-200],[200,0])
 control_2 = np.random.randint([-200,-350],[200,-150])
