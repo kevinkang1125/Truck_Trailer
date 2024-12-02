@@ -1,1 +1,0 @@
-controller_joint_names: ['trailer_to_right_tire', 'base_to_left_hinge', 'left_hinge_to_tire', 'base_to_right_hinge', 'right_hinge_to_tire', 'base_to_left_rear_tire', 'base_to_right_rear_tire', 'Tractor_to_Trailer', 'trailer_to_left_tire', 'trailer_to_right_tire', ]
